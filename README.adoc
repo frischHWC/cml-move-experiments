@@ -1,0 +1,25 @@
+# CML Move Experiments
+
+This project aims at moving all experiments from one project to another project (inside same workspace or not).
+
+## How to use it ?
+
+
+```
+./move-experiments.sh \
+    --type="import" \
+    --workspace-url="https://my.workspace.url/" \
+    --source-project-name="tomigrate" \
+    --target-project-name="test" \
+    --api-key="<user api key>" 
+```
+
+
+## Help
+
+See all possible arguments with:
+
+```
+./move-experiments.sh --help
+```
+
